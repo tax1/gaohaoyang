@@ -8,7 +8,7 @@
 # Site settings
 title: tax1
 brief-intro: Front-end Dev Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/gaohaoyang" # the subpath of your site, e.g. /blog
 url: "https://tax1.github.io/gaohaoyang" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
