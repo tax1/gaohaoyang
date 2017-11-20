@@ -11,13 +11,6 @@ author: HyG
 
 关于写倒计时大家可能都都比较熟悉，使用 setTimeout 或 setInterval 就可以搞定。几秒钟或者几分钟的倒计时这样写没有问题，但是如果是长时间的倒计时，这样写就会不准确。如果用户修改了他的设备时间，这样的倒计时就没有意义了。今天就说说写一个精确的倒计时的方法。
 
-
-
-## This test Video Youtube with plugins youtube.rb
-
-{% include youtube.html id='1-YOlGoKxeM' %}
-
-
 ## 原理
 
 众所周知 setTimeout 或者 setInterval 调用的时候会有微小的误差。有人做了一个 [demo](https://bl.ocks.org/kenpenn/raw/92ebaa71696b4c4c3acd672b1bb3f49a/) 来观察这个现象并对其做了修正。短时间的误差倒也可以接受，但是作为一个长时间的倒计时，误差累计就会导致倒计时不准确。
@@ -102,3 +95,10 @@ getServerTime((serverTime) => {
 在倒计时结束前的一段时间里，先请求好数据，倒计时结束后，再渲染页面。
 
 关于倒计时，如果你有什么更好的解决方案，欢迎评论交流。
+
+
+## This test Video Youtube with plugins youtube.rb
+
+{% include youtube.html id='1-YOlGoKxeM' %}
+
+
