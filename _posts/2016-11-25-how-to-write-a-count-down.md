@@ -13,9 +13,13 @@ author: HyG
 
 ![](http://www.colorhexa.com/007ded.png)
 
-### This test Video Youtube with plugins youtube.rb
+## This test Video Youtube with plugins youtube.rb
 
 {% youtube 1-YOlGoKxeM %}
+
+## This test Video Youtube with plugins youtube.html
+
+{% include youtube.html id=1-YOlGoKxeM %}
 
 
 ## 原理
