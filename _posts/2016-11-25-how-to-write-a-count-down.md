@@ -15,7 +15,7 @@ author: HyG
 
 ## This test Video Youtube with plugins youtube.rb
 
-{% youtube 1-YOlGoKxeM %}
+{% include youtube.html id='1-YOlGoKxeM' %}
 
 
 ## 原理
