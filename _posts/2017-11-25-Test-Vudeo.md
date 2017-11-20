@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Test Video"
-categories: JavaScript
-tags:  countdown JavaScript
+categories: Video
+tags:  Test Video
 author: Tax1
 ---
 
