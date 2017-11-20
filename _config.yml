@@ -9,7 +9,7 @@
 title: tax1
 brief-intro: Front-end Dev Engineer
 baseurl: "/gaohaoyang" # the subpath of your site, e.g. /blog
-url: "https://tax1.github.io" # the base hostname & protocol for your site
+url: "https://tax1.github.io/gaohaoyang" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
