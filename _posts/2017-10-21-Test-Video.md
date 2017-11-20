@@ -11,7 +11,8 @@ author: Tax1
 {:toc}
 
 
-## This test Video Youtube with plugins youtube.rb
+## This test Video Youtube with plugins youtube.html
+{% include youtube.html id='1-YOlGoKxeM' %}
 
 
 
