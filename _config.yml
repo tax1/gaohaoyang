@@ -61,6 +61,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-admin
+  - jekyll-youtube
 
 # paginate
 gems: [jekyll-paginate]
