@@ -2,8 +2,8 @@
 layout: post
 title:  "Test Video"
 date:   2016-12-25 11:40:18 +0800
-categories: jekyll
-tags:  jekyll
+categories: Video
+tags:  Test Video
 author: Tax1
 ---
 
@@ -13,7 +13,11 @@ author: Tax1
 
 ## This test Video Youtube with plugins youtube.rb
 
-{% youtube 1-YOlGoKxeM %}
 
+
+
+Video Test OK
+
+{% youtube 1-YOlGoKxeM %}
 
 ![](http://www.colorhexa.com/007ded.png)
