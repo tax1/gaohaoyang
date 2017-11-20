@@ -18,6 +18,6 @@ author: Tax1
 
 Video Test OK
 
-{% YouTube 1-YOlGoKxeM %}
+{% include youtube.html id='1-YOlGoKxeM' %}
 
 ![](http://www.colorhexa.com/007ded.png)
