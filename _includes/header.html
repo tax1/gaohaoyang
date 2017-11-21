@@ -6,8 +6,8 @@
         <nav id="headerNav">
             <ul>
                 <li>
-                    {% if site.baseurl == '/' %}
-                    <a class="active" href="{{ site.baseurl }}/">
+                    {% if site.baseurl == '{{ site.baseurl }}/' %}
+                  <a class="active" href="{{ site.baseurl }}/">
                         {% else %}
                     <a href="{{ site.baseurl }}/">
                     {% endif %}
