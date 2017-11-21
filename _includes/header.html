@@ -6,12 +6,15 @@
         <nav id="headerNav">
             <ul>
                 <li>
-                    {% if page.baseurl == '/' %}
+                    {% for page in site.pages %}
+                    {% if page.url != "home" %}
                    <a class="active" href="{{ page.baseurl | prepend: site.baseurl }}/">
                         {% else %}
                     <a href="{{page.baseurl | prepend:  site.baseurl }}/">
-                    {% endif %}
+                   
                         <i class="fa fa-home"></i>Home
+                        {% endif %} 
+                        {% endfor %}
                     </a>
                 </li>
 
