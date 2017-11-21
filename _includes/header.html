@@ -5,14 +5,13 @@
         <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
             <ul>
-                <li>
-                  
-                     
-                   <a class="active" href="{{ site.baseurl }}/">
-                       
+                 <li>
+                    {% if page.url == '/' %}
+                    <a class="active" href="{{site.baseurl}}/">
+                        {% else %}
+                    <a href="{{site.baseurl}}/">
+                    {% endif %}
                         <i class="fa fa-home"></i>Home
-                       
-                      
                     </a>
                 </li>
 
