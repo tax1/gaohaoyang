@@ -7,7 +7,7 @@
             <ul>
                 <li>
                   
-                     {% if page.baseurl == '/' %}
+                     {% if site.baseurl == '/' %}
                    <a class="active" href="{{ page.baseurl | prepend: site.baseurl }}/">
                         {% else %}
                     <a href="{{page.baseurl | prepend:  site.baseurl }}/">
